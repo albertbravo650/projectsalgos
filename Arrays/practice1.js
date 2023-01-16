@@ -24,7 +24,7 @@
 // }
 
 var countPositives = 0;
-var numbers = [3, 4, -2, 7, 16, -8, 0];
+var numbers = [3, 4, -2, 7, 16, -8, 0, 2, 1, 3, -12];
 
 for(i=0; i<numbers.length; i++) {
     if(numbers[i]>0) {
