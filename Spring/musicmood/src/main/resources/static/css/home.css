@@ -1,0 +1,44 @@
+@charset "ISO-8859-1";
+
+* {
+	padding: 0;
+	margin: 0;
+	color: black;
+}
+
+.image {
+	display: flex;
+	justify-content: center;
+	margin-left: 25%;
+}
+
+.toprow {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+#data1, #data2 {
+	color: black;
+}
+
+a {
+	text-align: center;
+}
+
+.table {
+	border-radius: 2px;
+}
+
+.col-8 {
+	width: 50%;
+}
+
+.topfields {
+	display: flex;
+	align-items: center;
+}
+
+.fields {
+	display: flex;
+}

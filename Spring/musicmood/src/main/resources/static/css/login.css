@@ -1,0 +1,60 @@
+@charset "ISO-8859-1";
+
+* {
+	padding: 0;
+	margin: 0;
+	color: white;
+}
+
+body {
+	background-color: black;
+}
+
+.image {
+	display: flex;
+	justify-content: center;
+	margin-left: 25%;
+}
+
+.toprow {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.field {
+	border: 2px solid gray;
+	border-radius: 5px;
+	padding: 5px;
+	color: black;
+}
+
+h1, p {
+	text-align: center;
+}
+
+.col-8 {
+	width: 50%;
+}
+
+.button {
+	display: flex;
+	justify-content: center;
+}
+
+.btn {
+	box-shadow: 1px 1px 5px blue;
+	margin-bottom: 50px;
+	color: black;
+	background-color: white;
+	border: 3px solid gray;
+}
+
+.topfields {
+	display: flex;
+	align-items: center;
+}
+
+.fields {
+	display: flex;
+}
