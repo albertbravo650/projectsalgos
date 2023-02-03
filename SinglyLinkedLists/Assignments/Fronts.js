@@ -28,7 +28,24 @@ class SLL {
     }
 
     removeFront() {
+        if(!this.head) {
+            return null;
+        }
+        let first_node = this.head;
+        let next_head = first_node.next;
+        // console.log("test", next_head);
+        this.head = next_head;
+        // next_head = this.head;
+        first_node.next = null;
         
+        return next_head;
+    }
+
+    front() {
+        if(!this.head) {
+            return null;
+        }
+        return this.head.data;
     }
 }
 
@@ -36,4 +53,15 @@ SLL1 = new SLL();
 SLL1.addFront(18);
 SLL1.addFront(5);
 SLL1.addFront(73);
-console.log(SLL1)
+console.log(SLL1);
+
+SLL1.removeFront();
+console.log(SLL1);
+SLL1.removeFront();
+console.log(SLL1);
+
+let frontVal = SLL1.front();
+console.log(frontVal);
+SLL1.removeFront();
+frontVal = SLL1.front();
+console.log(frontVal);
